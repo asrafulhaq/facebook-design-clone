@@ -371,3 +371,86 @@ input[type="submit"]  {
 .frields-section .all-frield .frield-item .card-footer {
 	padding: 5px;
 }
+
+
+
+
+.top-page-header {
+	background-color: #fff;
+}
+
+
+.top-page-header .main-menu ul{
+	padding-left: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.top-page-header .main-menu ul li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.top-page-header .main-menu ul li  a {
+	display: block;
+	padding: 10px;
+	color: #555;
+	font-size: 28px;
+}
+
+.top-page-header .user-info-top {
+	margin-top: 11px;
+}
+
+.top-page-header .user-info-top img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+}
+
+
+.top-page-header .user-info-top h4{
+	font-size: 16px;
+	float: left;
+	font-weight: bold;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.notification-bar {
+	margin-top: 11px;
+}
+
+.notification-bar ul {
+	text-align: right;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+.notification-bar ul li {
+	display: inline-block;
+	margin: 0px 5px;
+	font-size: 20px;
+}
+
+.notification-bar ul li a {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	line-height: 20px;
+	background-color: #E4E6EB;
+	display: inline-block;
+	text-align: center;
+	color: #000;
+	padding: 10px;
+	box-sizing: content-box;
+	border-radius: 50px;
+}
+
+
+
+
+
+
