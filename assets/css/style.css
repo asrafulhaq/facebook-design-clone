@@ -1,0 +1,373 @@
+@font-face {
+	src: url('../fonts/UbuntuCondensed-Regular.ttf');
+	font-family: 'ubuntu';
+}
+
+* {
+	font-family: 'ubuntu';
+
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	margin-top: 0px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+body {
+	background-color: #e9e9e9;
+}
+
+.btn {
+	border-radius: 0px !important;
+}
+
+input, input:focus {
+	border-radius: 0px !important;
+	outline: none !important;
+	box-shadow: none !important;
+	border: 1px solid #ccc !important;
+}
+input[type="submit"]  {
+	border: 1px solid transparent !important;
+}
+
+.wrap {
+	width: 500px;
+	margin: 50px auto 0px;
+
+}
+
+.wrap-table {
+	width: 1000px;
+	margin: 50px auto 0px;
+
+}
+.wrap-table table tr td {
+	vertical-align: middle !important;
+	padding: 3px 5px;
+}
+
+.wrap-table table tr td img {
+	width: 50px;
+	height: 50px;
+	vertical-align: middle !important;
+} 
+
+.wrap-table table tbody tr td:first-child{
+	width: 30px !important;
+}
+.wrap-table table tbody tr td:last-child{
+	text-align: right;
+	width: 160px;
+}
+
+
+
+.container {
+	width: 80%;
+}
+
+
+
+
+/*USER PFOFILE PAGE */
+
+.user-profile-header {
+	background-color: #fff;
+}
+
+.user-profile-header .cover-profile-photo {
+	height: 300px;
+	background-image: url('../media/img/pubg-android-game-4k-eh.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	border-radius: 0px 0px 10px 10px;
+	position: relative;
+}
+
+.user-profile-header .cover-profile-photo .profile-photo img{
+	width: 170px;
+	height: 170px;
+	border: 10px solid #FFF;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -20px;
+	left: 0px;
+	right: 0px;
+	display: block;
+	margin: auto;
+
+}
+
+.user-profile-header  .user-info {
+	text-align: center;
+}
+
+.user-profile-header  .user-info h2 {
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+
+.user-profile-header  .user-info p {
+	margin: 3px;
+}
+
+.user-profile-header .profile-menu ul li {
+	display: inline-block;
+} 
+.user-profile-header .profile-menu ul li a {
+	color: #555;
+	display: block;
+	padding: 5px  15px;
+}
+
+.user-profile-header .profile-menu  .right-menu a {
+	background-color: #E4E6EB;
+	color: #000;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+
+.profile-mein-content {
+	margin-top: 20px;
+
+}
+.profile-mein-content .intro ul {
+	padding-left: 0px;
+}
+
+.profile-mein-content .intro ul li {
+	margin: 10px 0px; 
+} 
+
+.profile-mein-content .intro ul li i {
+	display: inline-block;
+	width: 22px;
+}
+
+.profile-mein-content .intro a {
+	display: block;
+	padding: 5px 10px;
+	background-color: #E4E6EB;
+	border-radius: 5px;
+	text-align: center;
+	color: #000;
+}
+
+.profile-mein-content .intro .featured-gallery .gallery-img img{
+	width: 31%;
+	height: 120px;
+	margin: 3px
+	
+} 
+
+
+.create-post-section .post-area img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.create-post-section .post-area .make-post {
+	width: 90%;
+	border: 1px solid #E4E6EB;
+	background-color: #E4E6EB;
+	padding: 7px 10px;
+	border-radius: 50px !important;
+	cursor: pointer;
+	color: #555;
+}
+
+.create-post-section .post-area .make-post:hover {
+	background-color: #D7D9DE;
+}
+
+.create-post-section .post-options ul {
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.create-post-section .post-options ul li {
+	display: inline-block;
+	margin: 0px 30px;
+}
+
+.create-post-section .post-options ul li a{
+	display: inline-block;
+	color: #555;
+
+} 
+
+
+.create-post-section .post-options ul li a img {
+	width: 25px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.user-post-panel .post-header img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+}
+
+.user-post-panel .post-header .post-user-info {
+	float: left;
+	margin-left: 10px;
+}
+
+.user-post-panel .post-header a {
+	color: #333;
+}
+.user-post-panel .post-header .post-user-info h4 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.user-post-panel .post-header .post-user-info h4 a {
+	color: #333;
+}
+
+.user-post-panel .post-header .post-user-info p {
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 0px;
+}
+
+.user-post-panel .post-header .post-user-info p i {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.user-post-panel .post-content img{
+	width: 100%;
+}
+
+.user-post-panel .post-likes {
+	color: #555;
+}
+
+.user-post-panel .post-likes img {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+.user-post-panel .post-like-comment-share ul {
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.user-post-panel .post-like-comment-share ul li {
+	display: inline-block;
+	margin:0px 55px;
+}
+
+.user-post-panel .post-like-comment-share ul li a {
+	color: #555;
+	font-size: 16px;
+}
+
+.user-post-panel .comment-area .post-user-comment img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+
+}  
+
+.user-post-panel .comment-area .post-user-comment .comment-content {
+	float: left;
+	margin-left: 10px;
+}
+
+.user-post-panel .comment-area .post-user-comment .comment-content h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.user-post-panel .comment-area .post-user-comment .comment-content {
+	background-color: #f9f9f9;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+.user-post-panel .comment-area .post-user-comment .comment-content p {
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+.user-post-panel .post-comment img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+
+.user-post-panel .post-comment .post-comment-field {
+	width: 90%;
+}
+
+.user-post-panel .post-comment .post-comment-field input {
+	width: 100%;
+	padding: 7px 20px;
+	border-radius: 100px !important;
+	border: 1px solid #E4E6EB;
+}
+
+.user-post-panel {
+	margin-bottom: 20px;
+}
+
+.frields-section {
+	margin-top: 20px;
+}
+
+.frields-section .all-frield {
+	text-align: center;
+}
+
+.frields-section .all-frield .frield-item {
+	width: 30%;
+	height: 170px;
+	display: inline-block;
+	margin: 3px ;
+}
+
+.frields-section .all-frield .frield-item  h4 {
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+}
+
+.frields-section .all-frield .frield-item .card-body {
+	padding: 5px;
+}
+
+.frields-section .all-frield .frield-item .card-footer {
+	padding: 5px;
+}
