@@ -31,7 +31,7 @@ body {
 	border-radius: 0px !important;
 }
 
-input, input:focus {
+input, input:focus , textarea, textarea:focus {
 	border-radius: 0px !important;
 	outline: none !important;
 	box-shadow: none !important;
@@ -493,6 +493,106 @@ input[type="submit"]  {
 	width: 26px;
 	display: inline-block;
 	margin-right: 10px;
+}
+
+
+/*POST MODAL*/
+.post-blr {
+	background-color: rgba(255, 255, 255, .6);
+}
+
+#post_modal h3 {
+	text-align: center;
+	font-size: 22px;
+	color: #000;
+} 
+
+#post_modal .post-user-details img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+}
+
+#post_modal .post-user-details .post-user-info-details {
+	float: left;
+	margin-left: 10px;
+}
+
+#post_modal .post-user-details .post-user-info-details h4 {
+	font-size: 15px;
+	color: #000;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#post_modal .post-user-details .post-user-info-details p {
+	font-size: 14px;
+	color: #000;
+	background-color: #E4E6EB;
+	padding: 3px 7px;
+	display: table;
+}
+
+#post_modal textarea {
+	width: 100%;
+	min-height:200px;
+	font-size: 18px;
+	border: 1px solid transparent !important;
+}
+
+#post_modal .upload  {
+	margin: auto;
+	border: 1px solid #E4E6EB;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+
+#post_modal .upload h4 {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#post_modal .upload ul {
+	float: right;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+#post_modal .upload ul li {
+	display: inline-block;
+	margin: 0px 7px;
+}
+
+#post_modal .upload ul li a {
+	display: block;
+}
+#post_modal .upload ul li a img {
+	width: 20px
+}
+#post_modal .submit-button  {
+	margin-top: 15px;
+}
+
+
+#post_modal .submit-button input{
+	width: 90%;
+	text-align: center;
+	padding: 5px 10px;
+	color: #FFF;
+	background-color: #1771E6;
+	border-radius: 5px !important;
+}
+
+#post_modal .submit-button i{
+	width: 40px;
+	text-align: center;
+	padding: 10px;
+	color: #000;
+	background-color: #E4E6EB;
+	border-radius: 5px !important;
 }
 
 
