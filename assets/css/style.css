@@ -451,6 +451,50 @@ input[type="submit"]  {
 
 
 
+/*HOME PAGE USER */
+.home-page-user {
+	position: fixed;
+	top: 100px;
+	left: 50px;
+}
+
+.home-page-user .user-info img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float: left;
+}
+
+.home-page-user .user-info h4 {
+	float: left;
+	margin-left: 10px;
+	font-size: 15px;
+	color: #555;
+	font-weight: bold;
+	margin-top: 6px;
+}
+
+.home-page-user ul {
+	padding-left: 0px;
+	margin-bottom: 0px;
+
+}
+
+.home-page-user ul  li {
+	margin-top: 10px
+}
+
+.home-page-user ul li a {
+	color: #555;
+	font-size: 14px;
+}
+
+.home-page-user ul li a img {
+	width: 26px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
 
 
 
